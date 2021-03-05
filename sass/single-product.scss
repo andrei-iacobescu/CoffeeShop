@@ -1,0 +1,89 @@
+@import "utilities";
+
+section#single-product {
+    margin: 10em 0;
+    .container {
+        .row {
+            align-items: center;
+            .first-col {
+                padding-left: 5em;
+                padding-right: 1em;
+                img {
+                    height: 600px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .second-col {
+                padding-left: 3em;
+
+                h2 {
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 2.5rem;
+                }
+
+                p.price {
+                    color: $color-one;
+                    font-weight: 600;
+                    font-size: 2.3rem;
+                }
+
+                p.desc {
+                    color: #636363;
+                }
+
+
+                .select-container {
+                    margin-bottom: 3em;
+                    select {
+                        background-color: transparent;
+                        border: 1px solid darkgrey;
+                        width: 170px;
+                        padding: .7em 1.5em;
+                        color: $color-one;
+                    }
+                }
+
+                .quantity {
+                    margin-bottom: 4em;
+                    p {
+                        span.decrease,
+                        span.increase {
+                            border: 1px solid #636363;
+                            padding: 1em 1.5em;
+                            color: $color-one;
+                            font-weight: 600;
+                            margin-right: .7em;
+                        }
+
+
+                        span.number {
+                            border: 1px solid #636363;
+                            padding: 1em 3em;
+                            color: $color-one;
+                            font-weight: 600;
+                            margin-right: .7em;
+                        }
+
+                    }
+                }
+
+
+                button.add-cart {
+                    background-color: $color-one;
+                    padding: 1em 3em;
+                    border-radius: 3px;
+
+                    &:hover {
+                        background-color: transparent;
+                        border: 1px solid $color-one;
+                        color: $color-one;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.active-text {
+  color: #C49B63 !important;
+}
+
+section#single-product {
+  margin: 10em 0;
+}
+
+section#single-product .container .row {
+  align-items: center;
+}
+
+section#single-product .container .row .first-col {
+  padding-left: 5em;
+  padding-right: 1em;
+}
+
+section#single-product .container .row .first-col img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+section#single-product .container .row .second-col {
+  padding-left: 3em;
+}
+
+section#single-product .container .row .second-col h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+section#single-product .container .row .second-col p.price {
+  color: #C49B63;
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+
+section#single-product .container .row .second-col p.desc {
+  color: #636363;
+}
+
+section#single-product .container .row .second-col .select-container {
+  margin-bottom: 3em;
+}
+
+section#single-product .container .row .second-col .select-container select {
+  background-color: transparent;
+  border: 1px solid darkgrey;
+  width: 170px;
+  padding: .7em 1.5em;
+  color: #C49B63;
+}
+
+section#single-product .container .row .second-col .quantity {
+  margin-bottom: 4em;
+}
+
+section#single-product .container .row .second-col .quantity p span.decrease,
+section#single-product .container .row .second-col .quantity p span.increase {
+  border: 1px solid #636363;
+  padding: 1em 1.5em;
+  color: #C49B63;
+  font-weight: 600;
+  margin-right: .7em;
+}
+
+section#single-product .container .row .second-col .quantity p span.number {
+  border: 1px solid #636363;
+  padding: 1em 3em;
+  color: #C49B63;
+  font-weight: 600;
+  margin-right: .7em;
+}
+
+section#single-product .container .row .second-col button.add-cart {
+  background-color: #C49B63;
+  padding: 1em 3em;
+  border-radius: 3px;
+}
+
+section#single-product .container .row .second-col button.add-cart:hover {
+  background-color: transparent;
+  border: 1px solid #C49B63;
+  color: #C49B63;
+}

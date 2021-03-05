@@ -1,0 +1,72 @@
+@import 'utilities.scss';
+
+section#contact-us {
+    .container {
+        .row {
+            margin: 5em 0;
+            align-items: center;
+
+            .first-col {
+                color: #fff;
+
+                span {
+                    color: grey;
+                }
+
+                a {
+                    color: $color-one;
+                }
+                p {
+                    margin-bottom: 1.3em;
+                }
+
+                h4 {
+                    margin-bottom: 2em;
+                }
+            }
+
+            .second-col {
+                input {
+                    margin-bottom: 2em;
+                    background-color: transparent;
+                    border: 0;
+                    border-bottom: 2px solid #1E1E20;
+                    border-radius: 0;
+
+                    &:focus {
+                        border-bottom: 2px solid $color-one;
+                    }
+
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+
+                textarea {
+                    background-color: transparent;
+                    border: 0;
+                    border-bottom: 2px solid #1e1e20;
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+
+                
+            }
+        }
+
+        button.send-btn {
+            background-color: $color-one;
+            color: #000;
+            padding: .8em 3em;
+        }
+    }
+
+
+    
+    iframe {
+        width: 100%;
+        height: 400px;
+    }    
+    
+}

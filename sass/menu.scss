@@ -1,0 +1,61 @@
+@import 'utilities.scss';
+
+
+section#menu {
+    .container {
+        .row {
+            > div {
+                margin-bottom: 8em;
+            }
+            h3.title {
+                text-transform: uppercase;
+                color: #fff;
+                margin-bottom: 2em;
+                letter-spacing: 1;
+            }
+            
+            .object-wrapper {
+                .object-media {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 2em;
+                    img {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                    }
+                    .object-body {
+                        padding-left: 1em;
+    
+                        h4 {
+                            margin-bottom: .5em;
+                            color: #fff;
+                            font-size: 1.2rem;
+                        }
+    
+                        p {
+                            color: grey;
+                        }
+    
+                        span.price::before {
+                            content: "";
+                            display: inline-block;
+                            width: 250px;
+                            height: 1px;
+                            border-bottom: 1px dashed $color-one;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+section#discover-products {
+    margin-bottom: 10em;
+}
