@@ -10,11 +10,6 @@ section#single-product .container .row {
   align-items: center;
 }
 
-section#single-product .container .row .first-col {
-  padding-left: 5em;
-  padding-right: 1em;
-}
-
 section#single-product .container .row .first-col img {
   height: 600px;
   width: 100%;
