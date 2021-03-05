@@ -746,6 +746,7 @@ section#best-sellers {
 section#gallery {
     
     .row {
+        
         img {
             width: 100%;
             height: 300px;
@@ -757,6 +758,7 @@ section#gallery {
         }
 
         div {
+            
             &:hover {
                 cursor: pointer;
                 .icon-container::after {
