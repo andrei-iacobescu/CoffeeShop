@@ -1854,8 +1854,24 @@ section#footer footer .container .first-col {
   section#recent-blog .container {
     max-width: 1100px;
   }
-  section#recent-blog .container .row > div {
-    margin-bottom: 5em;
+  section#recent-blog .container .row img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    margin-bottom: 3em;
+  }
+  section#recent-blog .container .row p.date {
+    color: #6A6A6B;
+  }
+  section#recent-blog .container .row p.date span {
+    margin-right: .5em;
+  }
+  section#recent-blog .container .row p.title {
+    color: #fff;
+    font-weight: 600;
+  }
+  section#recent-blog .container .row p.desc {
+    color: #6A6A6B;
   }
   section#recent-blog .container h3.subtitle {
     font-size: 2.2rem;
