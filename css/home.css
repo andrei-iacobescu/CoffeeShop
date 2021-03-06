@@ -1855,7 +1855,7 @@ section#footer footer .container .first-col {
     max-width: 1100px;
   }
   section#recent-blog .container .row > div {
-    height: auto;
+    height: 100%;
   }
   section#recent-blog .container h3.subtitle {
     font-size: 2.2rem;
